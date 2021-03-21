@@ -1,0 +1,102 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li,td{
+    font-family: 'Syne Mono', monospace;
+}
+
+section{
+    padding: 20px 0px;
+}
+
+section[id = 'introduction']{
+    padding: 0px 0px;
+}
+
+#introduction .jumbotron{
+    height:60vh;
+}
+
+#introduction h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#introduction p{
+    font-size: 30px;
+    height: max-content;
+}
+
+#introduction p img{
+    width:156px;
+    height:180px;
+    float:right;
+    border-radius: 120px;
+    
+}
+
+.btn{
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 15px;
+
+}
+
+#introduction .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .navbar{
+    background-color: crimson;
+}
+
+header li {
+    font-size: 20px;
+    margin: 0px 5px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* table tr:nth-child(even){
+    background-color: #f2f2f2;
+} */
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+table{
+    font-size: 15px;
+}
+
+table th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    width: fit-content;
+}
+
+#education, #recommendation{
+    background-color:black;
+}
+
+#education h2, #recommendation h2{
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: crimson;
+}
