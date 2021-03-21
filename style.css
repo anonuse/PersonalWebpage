@@ -89,7 +89,11 @@ table th,td{
     background-color:black;
 }
 
-#education h2, #recommendation h2{
+#recommendation h2{
+    color: white;
+}
+
+#education .container{
     color: white;
 }
 
@@ -99,4 +103,8 @@ table, th, td {
 
 th {
     background-color: crimson;
+}
+
+h2{
+    padding: 10px 0px;
 }
